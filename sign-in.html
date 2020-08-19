@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sign-in</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto">
+          <link rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="sign-in.css">
+        <body>
+            <img src="man.png" alt="A man in leather jacket">
+            <div class="body">
+               <h1>
+                    Sign In
+                </h1>
+                Email <br>
+                <input type="email" name="userEmail" id="user-email" required><br>
+                Password <br>
+                <input type="password" name="userPswd" id="user-pswd" required><br>
+                <span toggle="#input-pwd" id="icon" class="fa fa-eye field-icon toggle-password" style="width:15%; height: 5%; z-index: 2;" onclick="myFunction()"></span>
+                <button>Sign In</button>
+                <div class="side">Don't have an account yet? <a href="sign-up.html">Sign Up</a></div>
+
+            </div>
+            
+        </body>
+        <script src="sign-up.js"></script>
+
+    </head>
+</html>

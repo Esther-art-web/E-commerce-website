@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> 
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="sign-in.css">
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <img src="man.png" alt="A man in leather jacket">
+        <div class="body">
+            <div id="txtwarn1"></div>
+            <h1>Create Account</h1><br>
+            First name <br>
+            <input type="text" name="userName" id="user-name" required>
+            Email <br>
+            <input type="email" name="userEmail" id="user-email" required><br>
+            <div id="txtwarn2"></div>
+            Password <br>
+            <div class="container">
+                <input type="password" name="userPswd" id="user-pswd" style="display: inline; z-index: -1;"required>
+                <span toggle="#input-pwd" id="icon" class="fa fa-eye field-icon toggle-password" style="width:15%; height: 5%;" onclick="myFunction()"></span>
+                <div id="txtwarn3"></div>
+            </div>
+            <button id="sign-btn">Sign Up</button>
+            <div class="side">Already have an account? <a href="sign-in.html">Sign In</a></div>
+        </div>
+        <script src="sign-up.js"></script>
+    </body>
+</html>
